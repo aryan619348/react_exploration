@@ -1,30 +1,33 @@
-import React from 'react'
-import Header from "@/Components/Header"
-const page = () => {
-  return (
-    <>
-        <Header />
-        page
-    </>
+"use client";
+import React, { useState } from 'react'
+import axios from 'axios'
+import Picture from '@/Components/Picture';
 
-  )
+function page() {
+ 
+  return (
+    <h1>Main Page</h1>
+    )
 }
 
 export default page
-
 // "use client";
-// import React, { useState } from 'react'
+// import React from 'react'
+// import Header from '@/Components/Header'
+// import axios from 'axios'
 
-// const page = () => {
-//     const [marks, setMarks] = useState(80)
-//   return (
-//     <>
-//         <h1> marks = {marks}</h1>
-//         <button onClick={()=>{
-//             setMarks(marks+1)
-//         }}>Update</button>
-//     </>
-//   )
+// export const page = () => {
+//     const getImages = () => {{
+//         console.log("image call")
+//     }
+//     return (
+//         <div>
+//             <h1>Main Page</h1>
+//             <div className='api-call'>
+//             <button className='image-bttn' onClick={getImages}> Show Images</button>
+//             </div>
+//         </div>
+//     )
 // }
-
 // export default page
+

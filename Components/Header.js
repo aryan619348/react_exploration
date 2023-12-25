@@ -1,14 +1,14 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Header = () => {
   return (
     <div className='head'>
-        <h2>Logo</h2>
-        <ul>
-            <li><button className='btt'>Home</button></li>
-            <li><button className='btt'>About</button></li>
-            <li><button className='btt'>Contact</button></li>
-        </ul>
+        <h2>Hello Everyone</h2>
+        <Link href="/">Main Page</Link>
+        <Link href="/About">About</Link>
+        <Link href="/Contact">Contact</Link>
+        <Link href="/Home">Home</Link>
+
     </div>
   )
 }
